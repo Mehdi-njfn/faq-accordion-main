@@ -1,8 +1,4 @@
-@import  url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
-@font-face {
-  font-family: "onefont";
-  src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
-}
+
 @font-face {
   font-family: "twofont";
   src: url('./assets/fonts/static/WorkSans-Bold.ttf');
