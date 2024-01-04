@@ -1,0 +1,92 @@
+@import  url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
+@font-face {
+  font-family: "onefont";
+  src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: "twofont";
+  src: url('./assets/fonts/static/WorkSans-Bold.ttf');
+}
+@font-face {
+  font-family: "threefont";
+  src: url('./assets/fonts/static/WorkSans-Regular.ttf');
+}
+
+body{
+  background-image: url("./assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  height: 100%  ;
+  align-items: center;
+  display: flex;
+}
+.card{
+  background-color: white;
+  width: 345px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+h3{
+  font-weight: 700;
+  font-size: xx-large;
+  /* width: 100px !important; */
+}
+p, h3{
+  font-family:"twofont";
+  color: hsl(292, 42%, 14%);
+
+}
+p{
+  font-weight: 600;
+
+}
+#star{
+  width: 25px;
+  margin-bottom: 5px;
+}
+
+.row{
+  align-items: center;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.disc svg{
+  width: 50px;
+}
+hr{
+  color: rgb(170, 175, 180);
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.disc{
+  align-items: center;
+}
+p{
+  margin-top: 10px;
+}
+span{
+  font-family: 'threefont';
+  font-weight: 600;
+  color: hsla(293, 16%, 49%, 0.687);
+  display: none;
+}
+
+@media screen and (min-width:520px) {
+  .card{
+    width: 500px;
+  }
+  p:hover{
+    color: hsl(276, 66%, 50%);
+    transition: .8s;
+  }
+  span{
+    font-size: 16px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
