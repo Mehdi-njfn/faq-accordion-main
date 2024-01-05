@@ -1,1 +1,1 @@
-Hi wellcome , i'm happy to visit this project , you can run dev branch and see result. Bye
+Hi wellcome , i'm happy to visit this project , you can run dev branch and see result also the screenshot of results is in design folder in dev branch. Bye
